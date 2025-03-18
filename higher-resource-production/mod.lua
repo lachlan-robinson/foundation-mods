@@ -33,7 +33,7 @@ local buildingFunctions = {
     --GLASS
     { Id = "GLASS_SMELTER", Resources = { { Resource = "GLASS", Quantity = 1 } } },
     --GOLD_BARS
-    { Id = "GOLD_SMELTER", Resources = { { Resource = "GOLD", Quantity = 1 } } },
+    { Id = "GOLD_SMELTER", Resources = { { Resource = "GOLD_BARS", Quantity = 1 } } },
     --GOLD_ORE
     { Id = "QUARRY_GOLD", Resources = { { Resource = "GOLD_ORE", Quantity = 1 } } },
     --GRAPES
