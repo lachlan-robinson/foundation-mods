@@ -33,7 +33,7 @@ local buildingFunctions = {
     --GLASS
     { Id = "GLASS_SMELTER", Resources = { { Resource = "GLASS", Quantity = 1 } } },
     --GOLD_BARS
-    { Id = "GOLD_SMELTER", Resources = { { Resource = "GOLD", Quantity = 1 } } },
+    { Id = "GOLD_SMELTER", Resources = { { Resource = "GOLD_BARS", Quantity = 1 } } },
     --GOLD_ORE
     { Id = "QUARRY_GOLD", Resources = { { Resource = "GOLD_ORE", Quantity = 1 } } },
     --GRAPES
@@ -70,7 +70,7 @@ local buildingFunctions = {
     --PLANK
     { Id = "SAWMILL", Resources = { { Resource = "PLANK", Quantity = 1 } } },
     --POLISHED_STONE
-    { Id = "STONECUTTER_CAMP", Resources = { { Resource = "POLISHED_STONE", Quantity = 1 } } },
+    { Id = "STONEMASON_HUT", Resources = { { Resource = "POLISHED_STONE", Quantity = 1 } } },
     --QUARTZ
     { Id = "QUARRY_QUARTZ", Resources = { { Resource = "QUARTZ", Quantity = 1 } } },
     --SCULPTURE
