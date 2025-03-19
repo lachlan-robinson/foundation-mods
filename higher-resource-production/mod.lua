@@ -63,10 +63,10 @@ local buildingFunctions = {
     --MILK
     { Id = "DAIRY_FARM", Resources = { { Resource = "MILK", Quantity = 1 } } },
     --MONASTIC_MEAL
-    { Id = "MONASTERY_KITCHEN_RECIPE_A", Resources = { { Resource = "MONASTIC_MEAL", Quantity = 5 } } },
-    { Id = "MONASTERY_KITCHEN_RECIPE_B", Resources = { { Resource = "MONASTIC_MEAL", Quantity = 5 } } },
-    { Id = "MONASTERY_KITCHEN_RECIPE_C", Resources = { { Resource = "MONASTIC_MEAL", Quantity = 5 } } },
-    { Id = "MONASTERY_KITCHEN_RECIPE_D", Resources = { { Resource = "MONASTIC_MEAL", Quantity = 5 } } },   
+    { Id = "MONASTERY_KITCHEN_RECIPE_A", Resources = { { Resource = "MONASTIC_SIMPLE_STEW", Quantity = 5 } } },
+    { Id = "MONASTERY_KITCHEN_RECIPE_B", Resources = { { Resource = "MONASTIC_GARNISHED_GREENS", Quantity = 5 } } },
+    { Id = "MONASTERY_KITCHEN_RECIPE_C", Resources = { { Resource = "MONASTIC_GOLDEN_GRUEL", Quantity = 5 } } },
+    { Id = "MONASTERY_KITCHEN_RECIPE_D", Resources = { { Resource = "MONASTIC_ROBUST_ROAST", Quantity = 5 } } },   
     --PLANK
     { Id = "SAWMILL", Resources = { { Resource = "PLANK", Quantity = 1 } } },
     --POLISHED_STONE
