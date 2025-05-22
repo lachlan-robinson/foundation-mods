@@ -63,10 +63,10 @@ local buildingFunctions = {
     --MILK
     { Id = "DAIRY_FARM", Resources = { { Resource = "MILK", Quantity = 1 } } },
     --MONASTIC_MEAL
-    { Id = "MONASTERY_KITCHEN_RECIPE_A", Resources = { { Resource = "MONASTIC_SIMPLE_STEW", Quantity = 5 } } },
-    { Id = "MONASTERY_KITCHEN_RECIPE_B", Resources = { { Resource = "MONASTIC_GARNISHED_GREENS", Quantity = 5 } } },
-    { Id = "MONASTERY_KITCHEN_RECIPE_C", Resources = { { Resource = "MONASTIC_GOLDEN_GRUEL", Quantity = 5 } } },
-    { Id = "MONASTERY_KITCHEN_RECIPE_D", Resources = { { Resource = "MONASTIC_ROBUST_ROAST", Quantity = 5 } } },   
+    { Id = "MONASTERY_KITCHEN_RECIPE_A", Resources = { { Resource = "MONASTIC_GARNISHED_GREENS", Quantity = 5 } } },
+    { Id = "MONASTERY_KITCHEN_RECIPE_B", Resources = { { Resource = "MONASTIC_GOLDEN_GRUEL", Quantity = 5 } } },
+    { Id = "MONASTERY_KITCHEN_RECIPE_C", Resources = { { Resource = "MONASTIC_ROBUST_ROAST", Quantity = 5 } } },
+    { Id = "MONASTERY_KITCHEN_RECIPE_D", Resources = { { Resource = "MONASTIC_SIMPLE_STEW", Quantity = 5 } } },
     --PLANK
     { Id = "SAWMILL", Resources = { { Resource = "PLANK", Quantity = 1 } } },
     --POLISHED_STONE
@@ -74,9 +74,9 @@ local buildingFunctions = {
     --QUARTZ
     { Id = "QUARRY_QUARTZ", Resources = { { Resource = "QUARTZ", Quantity = 1 } } },
     --SCULPTURE
-    { Id = "SCULPTURE_WORKSHOP", Resources = { { Resource = "SCULPTURE", Quantity = 1 } } },
+    --{ Id = "SCULPTURE_WORKSHOP", Resources = { { Resource = "SCULPTURE", Quantity = 1 } } },
     --STAINED_GLASS
-    { Id = "STAINED_GLASS_WORKSHOP", Resources = { { Resource = "STAINED_GLASS", Quantity = 1 } } },
+    --{ Id = "STAINED_GLASS_WORKSHOP", Resources = { { Resource = "STAINED_GLASS", Quantity = 1 } } },
     --STONE
     { Id = "STONECUTTER_CAMP", Resources = { { Resource = "STONE", Quantity = 1 } } },
     --TOOL
